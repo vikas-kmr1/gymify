@@ -1,6 +1,8 @@
 body {
   font-family: 'Josefin Sans';
   background-color: #FFFAFB;
+  white-space: nowrap;
+
 }
 
 * {
@@ -68,10 +70,14 @@ body {
 .exercise-card {
   width: 400px;
   height: 445px;
-  background: #fff;
-  border-top: 4px solid #FF2625;
+  background: #aba1a1;
+  border-style: solid;
+  border-color: gray;
+  /*border-top: 4px solid #000000;*/
   border-bottom-left-radius: 20px;
   text-decoration: none;
+  -moz-box-shadow: aqua;
+
   display: flex;
   justify-content: space-between;
   flex-direction: column;
