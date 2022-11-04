@@ -1,8 +1,6 @@
 body {
   font-family: 'Josefin Sans';
   background-color: #FFFAFB;
-  white-space: nowrap;
-
 }
 
 * {
@@ -44,11 +42,6 @@ body {
   transform: scale(1.3, 1.3);
 }
 
-.react-horizontal-scrolling-menu--wrapper {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .detail-image {
   width: 729px;
@@ -58,8 +51,6 @@ body {
 .hero-banner-img {
   position: absolute;
   right: 40px;
-  padding-top: 35.5px;
-  z-index: 0;
   top: 0px;
   width: 700px;
   height: 900px;
@@ -70,14 +61,13 @@ body {
 .exercise-card {
   width: 400px;
   height: 445px;
-  background: #aba1a1;
+  background: #817474;
   border-style: solid;
-  border-color: gray;
-  /*border-top: 4px solid #000000;*/
+  border-width: 2px;
+  border-color: black;
+  /*border-top: 4px solid #817474;*/
   border-bottom-left-radius: 20px;
   text-decoration: none;
-  -moz-box-shadow: aqua;
-
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -124,6 +114,13 @@ body {
   .react-horizontal-scrolling-menu--scroll-container {
     width: 500px;
   }
+
+  .react-horizontal-scrolling-menu--wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 
   .left-arrow,
   .right-arrow {

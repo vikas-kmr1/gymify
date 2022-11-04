@@ -7,7 +7,6 @@ import { exerciseOptions, fetchData, youtubeOptions } from '../Utils/fetchData';
 import Detail from '../Components/Details';
 import ExerciseVideos from '../Components/ExerciseVideos';
 import SimilarExercises from '../Components/SimilarExercise';
-
 const ExerciseDetail = () => {
     const [exerciseDetail, setExerciseDetail] = useState({});
     const [exerciseVideos, setExerciseVideos] = useState([]);

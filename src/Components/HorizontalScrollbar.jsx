@@ -7,40 +7,42 @@ import BodyPart from './BodyPart';
 import RightArrowIcon from '../assets/icons/right-arrow.png';
 import LeftArrowIcon from '../assets/icons/left-arrow.png';
 
+
 const LeftArrow = () => {
-    const {scrollPrev} = useContext(VisibilityContext);
+    const { scrollPrev } = useContext(VisibilityContext);
 
     return (
-        <Typography onClick={() => scrollPrev()} className="right-arrow">
-            <img src={LeftArrowIcon} alt="right-arrow"/>
+        <Typography  onClick={() => scrollPrev()} className="right-arrow">
+            <img src={LeftArrowIcon}  alt="right-arrow" />
         </Typography>
     );
 };
 
 const RightArrow = () => {
-    const {scrollNext} = useContext(VisibilityContext);
+    const { scrollNext } = useContext(VisibilityContext);
 
     return (
         <Typography onClick={() => scrollNext()} className="left-arrow">
-            <img src={RightArrowIcon} alt="right-arrow"/>
+            <img src={RightArrowIcon} alt="right-arrow" />
         </Typography>
     );
 };
 
-const HorizontalScrollbar = ({data, bodyParts, setBodyPart, bodyPart}) => (
-    <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
+const HorizontalScrollbar = ({ data, bodyParts, setBodyPart, bodyPart }) => (
+    <Box className={"react-horizontal-scrolling-menu--wrapper"}>
+    <ScrollMenu  LeftArrow={LeftArrow} RightArrow={RightArrow}>
         {data.map((item) => (
-            <Box
+            <Box className={"react-horizontal-scrolling-menu--scroll-container"}
                 key={item.id || item}
                 itemId={item.id || item}
                 title={item.id || item}
                 m="0 40px"
             >
-                {bodyParts ? <BodyPart item={item} setBodyPart={setBodyPart} bodyPart={bodyPart}/> :
-                    <ExerciseCard exercise={item}/>}
+                {bodyParts ? <BodyPart item={item} setBodyPart={setBodyPart} bodyPart={bodyPart} /> : <ExerciseCard exercise={item} /> }
             </Box>
         ))}
     </ScrollMenu>
+    </Box>
 );
 
 export default HorizontalScrollbar;
