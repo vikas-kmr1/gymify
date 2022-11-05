@@ -15,7 +15,7 @@ something that guides them in their physical and mental health, without
 spending money on personal trainers. This application is the solution to all
 such problems.
 
-<img src="Extras/home.png" alt="home" width="900"/>
+<img src="Extras/home.png" alt="home" width="2100" />
 
 ## Search exercises: 
 ![](/Extras/search_category.png)
