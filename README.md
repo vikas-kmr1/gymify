@@ -25,7 +25,7 @@ such problems.
 ## Watch recorded demostration:
 ![](/Extras/ive_Demo.png)
 
-## Suggests similar exercises:
+## Try suggested exercises:
 ![](/Extras/simmilar.png)
 
 
