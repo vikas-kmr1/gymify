@@ -22,7 +22,7 @@ such problems.
 ## Get complete details about the exercise : 
 ![](/Extras/details.png)
 
-## Watch recorded demostration:
+## Watch recorded demonstration:
 ![](/Extras/ive_Demo.png)
 
 ## Try suggested exercises:
