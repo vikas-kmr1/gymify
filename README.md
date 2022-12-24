@@ -5,7 +5,7 @@ _A web application that keeps users fit and healthy. With the
 functionality to choose exercise categories and specific muscle 
 groups, browse more than one thousand exercises with practical 
 examples, pagination, exercise details, pull related videos from 
-various sources and display similar exercises, and much more._
+various sources and much more._
 
 ## The primary goals to choose this topic:
 
